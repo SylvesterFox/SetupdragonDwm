@@ -123,6 +123,7 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_e,      quit,           {0} },
+	{ MODKEY|ShiftMask,             XK_r,      quit,           {1} },
 	{ MODKEY,                       XK_Print,  spawn,       {.v = flameshot } },
 	{ MODKEY,                       0x5d,      spawn,       {.v = volupcmd } },
 	{ MODKEY,                       0x5b,      spawn,       {.v = voldowncmd} },
