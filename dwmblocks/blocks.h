@@ -6,7 +6,7 @@ static const Block blocks[] = {
 //	{"MEM ", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	30,		0},
 
 	{" " , "curl -s 'wttr.in/Moscow?format=%t'", 300, 0},
-	{"", "cpustatus",      10, 0},
+	{"", "cpustatus",      10, 0},
 	{" " , "date '+%d.%m'", 60, 0},
 	{" ", "date '+%H:%M  '", 5, 0},
 
