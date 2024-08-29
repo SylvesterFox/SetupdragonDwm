@@ -1,0 +1,8 @@
+#!/bin/bash
+
+case $BUTTON in
+	1) setsid -f "$TERMINAL" -e htop ;;
+esac
+
+temp=$( sensors | awk '/k10temp-pci-00c3/{found=1} found && /temp1/{print $2; exit}' )
+printf " CPU %s \n" "$temp"

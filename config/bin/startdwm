@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "$(date): Starting dwn" >> /home/dragofox/.dwmlogs/$(date +%Y-%m-%d_%H.dwm.log) 
+dwmblocks & dwm
+
